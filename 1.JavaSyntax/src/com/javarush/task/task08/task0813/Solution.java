@@ -31,7 +31,6 @@ public class Solution {
         set.add("Лмла");
         set.add("Лсла");
         set.add("Лчла");
-        set.containsAll("Л");
     }
 
     public static void main(String[] args) {

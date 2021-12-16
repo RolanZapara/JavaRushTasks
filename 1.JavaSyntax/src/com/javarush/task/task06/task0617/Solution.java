@@ -6,14 +6,17 @@ package com.javarush.task.task06.task0617;
 
 public class Solution {
     public static void main(String[] args) {
-//        printIdea(new Idea());
+        printIdea(new Idea());
     }
 
     //напишите тут ваш код
-    public class Idea {
-
+    public static class Idea {
         public String getDescription() {
-            return "string";
+            return "description";
         }
+    }
+    public static void printIdea(Idea idea) {
+        idea.getDescription();
+        System.out.println(idea.getDescription());
     }
 }

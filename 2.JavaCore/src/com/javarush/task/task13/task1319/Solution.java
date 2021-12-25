@@ -10,7 +10,24 @@ import java.io.InputStreamReader;
 */
 
 public class Solution {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception{
         // напишите тут ваш код
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        String pathToFile = reader.readLine();
+        
+        BufferedWriter writer = new BufferedWriter(new FileWriter(pathToFile));
+        
+        StringBuilder builder = new StringBuilder();
+        
+        String s = "";
+        while (!s.equals("exit")) {
+            s = reader.readLine();
+            builder.append(s).append("\n");
+        }
+        
+        writer.write(builder.toString());
+        writer.close();
+
+
     }
 }

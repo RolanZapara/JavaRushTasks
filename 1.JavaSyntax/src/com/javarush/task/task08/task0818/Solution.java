@@ -14,14 +14,15 @@ public class Solution {
         //напишите тут ваш код
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         Map<String, Integer> stringIntegerMap = new HashMap<>();
-        stringIntegerMap.put("asdas", 345)
-        stringIntegerMap.put("asdas", 345)
-        stringIntegerMap.put("asdas", 345)
-        stringIntegerMap.put("asdas", 345)
-        stringIntegerMap.put("asdas", 345)
-        stringIntegerMap.put("asdas", 345)
-        stringIntegerMap.put("asdas", 345)
-        stringIntegerMap.put("asdas", 345)
+        stringIntegerMap.put("asdas", 345);
+//        stringIntegerMap.put("asdas", 345)
+//        stringIntegerMap.put("asdas", 345)
+//        stringIntegerMap.put("asdas", 345)
+//        stringIntegerMap.put("asdas", 345)
+//        stringIntegerMap.put("asdas", 345)
+//        stringIntegerMap.put("asdas", 345)
+//        stringIntegerMap.put("asdas", 345)
+        return stringIntegerMap;
     }
 
     public static void removeItemFromMap(Map<String, Integer> map) {
